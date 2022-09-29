@@ -1,0 +1,16 @@
+@mixin ultimo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer{
+    @include ultimo();
+    
+}
+
+body{
+    background-color: darkblue;
+    @include ultimo();
+
+}
